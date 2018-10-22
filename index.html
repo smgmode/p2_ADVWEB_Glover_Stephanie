@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+   <title>P2AdvWeb_glover-stephanie</title>
+
+      <meta charset="utf-8" />
+   		<meta name="keywords" content="" />
+   		<meta name="description" content="" />
+
+   		<!-- FAVIcon -->
+   		<link rel="shortcut icon" href="images/favicon/favicon.ico" />
+
+   		<!-- CSS -->
+   		<link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+   		<link rel="stylesheet" href="stylesheets/style.css"/>
+
+   		<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+
+   		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   		<script src="scripts/scripts.js" type="text/javascript"></script>
+</head>
+
+<body>
+		<header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-image-section" id="home">
+				<img src="images/lcdd-logo.png" alt="lcdd-logo" title="lcdd-logo" />
+				<h1>Le Concept de Design</h1>
+				<div class="home-image">
+				<img src="images/art.png" width="300" height="300" alt="art" title="Ideation + Research" />
+				<img src="images/fashionbk.png" width="300" height="300" alt="UX + Webdesign" title="UX + Webdesign" />
+				<img src="images/brand-logo.png" width="300" height="300" alt="Branding-Logo" title="Branding-Logo" />
+			</div>
+			</section>
+
+      <div class="container">
+        <section class="services" id="camera">
+          <h1>About Us</h1>
+						<p>Mission: We want to help startups in the fashion tech, digital media, mobile and fintech space, design innovative brand strategies with a user experience focus.</p>
+						<p>It all started one day...</p>
+						<video class="city" width="500" muted autoplay loop>
+							<source src="video/crowdvideo.mp4" type="video/mp4" />
+							<source src="video/crowdvideo.ogv" type="video/ogv" />
+							<source src="video/crowdvideo.webm" type="video/webm" />
+							Your browser does not support HTML5 video
+						</video>
+					</section>
+			</div>
+
+						<section class="projects">
+							<div class="third-page">
+								<h2>PROJECTS</h2>
+								<p>Case Studies</p>
+								<a href="images/vrglasses.jpg" data-lightbox="image-1"
+								data-title="Virtual Reality">VR</a><img src="images/vrglasses.jpg" width="200" height="200" alt="vrglasses" title="vrglasses" />
+								<a href="images/rothys.jpg" data-lightbox="image-1"
+								data-title="Womens Shoes">Sustainable</a><img src="images/rothys.jpg" width="200" height="160" alt="rothys" title="rothys" />
+								<a href="images/mobile.jpg" data-lightbox="image-1"
+								data-title="Digital Media">Mobile</a><img src="images/mobile.jpg" width="200" height="160" alt="mobile" title="mobile" />
+								<p>Virtual Reality + Sustainable Fashion + Digital Media</p>
+
+								<aside>
+									<h3>Within: a virtual reality content and technology company(Los Angeles)</h3>
+									<h3>Rothys: a sustainable fashion company that makes stylish shoes for women while using low-waste-, low-impact and hand assembled materials. (San Francisco)</h3>
+									<h3>Condé Nast Digital: (New York + Worldwide)</h3>
+									<p>Coming Soon!</p>
+								</aside>
+							</div>
+						</section>
+
+							<section class="contact">
+							<div class="fourth-page">
+                <section class="contact-section" id="contact-us">
+									<h1>Hello!</h1>
+									<p>Thanks for stopping by.</p>
+                  <h3>Questions? Contact Us</h3>
+                </section>
+              </div>
+
+							<form class="lcdd-contact" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+	              <div class="first-name">
+	                <label for="firstname" class="label_input_wrap">First Name:</label>
+	                <input type="text" name="firstname" id="firstname" required />
+	              </div>
+
+	              <div class="last-name">
+	                <label for="lastname" class="label_input_wrap">Last Name:</label>
+	                <input type="text" name="lastname" id="lastname" placeholder="ex. Smith" />
+	              </div>
+
+	              <div class="email">
+	                <label for="email" class="label_input_wrap">Email: </label>
+	                <input type="email" name="email" placeholder="test@example.com" id="email"/>
+	              </div>
+
+	              <div class="telephone">
+	                <label for="telephone" class="label_input_wrap">Telephone: </label>
+	                <input type="tel" name="telephone" placeholder="555-555-5555" id="telephone" />
+	              </div>
+
+	              <div class="comments">
+	                <label for="comments" class="label_input_wrap">Comments: </label>
+	                <textarea name="comments" maxlength="1000" cols="55" rows="15" placeholder="Please Leave Us a Message" id="comments"></textarea>
+	              </div>
+
+	              <div class="radiobutton">
+	                <h3>If you want work with us, please choose one of the following:</h3>
+	                <input type="radio" name="projects" value="ideation"  id="ideation"/><label for="ideation">Ideation</label>
+	                <input type="radio" name="projects" value="webdesign" id="webdesign" /><label for="webdesign">Webdesign</label>
+	                <input type="radio" name="projects" value="branding" id="branding" /><label for="branding">Branding</label>
+	              </div>
+
+	              <div class="dropdown">
+	                <label for="communication" class="label_input_wrap">How do you want us to contact you?</label>
+	                <select name="communication" id="communication">
+	                  <option value="e-mail" selected>E-mail</option>
+	                  <option value="telephone">Telephone</option>
+	                </select>
+	               </div>
+
+	               <div class="submit">
+	                <input type="submit" value="Submit"/>
+	              </div>
+							</form>
+						</main>b
+				<footer>
+					<nav>
+		        <ul>
+							<li><a href="https://facebook.com">Facebook</a></li>
+		          <li><a href="https://twitter.com">Twitter</a></li>
+		          <li><a href="https://www.instagram.com">Instagram</a></li>
+							<p>&copy; 2018 Le Concept de Design</p>
+		        </ul>
+		      </nav>
+    	</footer>
+			<script src="lightbox/src/js/lightbox.js"></script>
+  	</body>
+  </html>
