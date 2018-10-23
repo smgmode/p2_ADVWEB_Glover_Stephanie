@@ -1,5 +1,3 @@
-
-
 * {
 	margin:0;
 	padding: 0;
@@ -31,7 +29,7 @@ header nav a:hover {
 	background-size: cover;
 	padding: 200px 0;
 	font-family: 'Archivo Narrow', sans-serif;
-	font-size: 100px;
+	font-size: 6.250em;
 	color: white;
 	text-align: center;
 }
@@ -41,6 +39,8 @@ img lccd-logo.png{
 }
 
 .home-image img {
+  height: 300px;
+  max-width: 300px;
 	border: 6px solid grey;
 	border-radius: 50px 20px;
 	box-shadow: 5px 5px 5px 5px beige;
@@ -48,11 +48,15 @@ img lccd-logo.png{
 }
 
 .home-image {
-	font-size: 10px;
+	font-size: .0625em;
 }
 
 .home-image:hover {
 	color: white;
+}
+
+figure {
+	width: 100%;
 }
 
 h1 {
@@ -72,7 +76,7 @@ h1 {
 }
 
 .services h1 {
-	font-size: 40px;
+	font-size:  2.500em;
 	text-align: center;
 }
 
@@ -101,7 +105,7 @@ p:hover {
 	max-width: 900px;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 100px;
+	font-size: 6.250em;
 	padding: 100px 100px 100px 100px;
 	background-color: #f49B95;
 	}
@@ -121,6 +125,11 @@ p:hover {
 .third-page {
 	font-size: 20px;
 	text-align: center;
+}
+
+.third-page img {
+  width: 200px;
+  height: 160px;
 }
 
 h2 {
@@ -180,6 +189,30 @@ footer nav ul li {
 footer {
 	background: beige;
 }
+
+/* Start 320 Media Query */
+
+/* Mobile */
+@media (min-width: 320px) {
+  figure {
+    width: 100%
+  }
+}
+
+/* Tablets */
+@media (min-width: 760px) {
+  figure {
+    width: 100%
+  }
+}
+
+/* Desktop */
+@media (min-width: 990px) {
+  figure {
+    width: 100%
+  }
+}
+/* End Media Queries */
 
 @keyframes rotate {
 	0% {
