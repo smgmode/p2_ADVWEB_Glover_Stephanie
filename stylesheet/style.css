@@ -1,3 +1,5 @@
+
+
 * {
 	margin:0;
 	padding: 0;
@@ -178,31 +180,6 @@ footer nav ul li {
 footer {
 	background: beige;
 }
-
-/* Start 320 Media Query */
-
-/* Mobile */
-@media (min-width: 320px) {
-  figure {
-    width: 100%
-  }
-}
-
-/* Tablets */
-@media (min-width: 760px) {
-  figure {
-    width: 100%
-  }
-}
-
-/* Desktop */
-@media (min-width: 990px) {
-  figure {
-    width: 100%
-  }
-}
-/* End Media Queries */
-
 
 @keyframes rotate {
 	0% {
