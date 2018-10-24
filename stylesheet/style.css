@@ -32,6 +32,7 @@ header nav a:hover {
 	font-size: 6.250em;
 	color: white;
 	text-align: center;
+  text-shadow: 1px 1px 1px grey;
 }
 
 img lccd-logo.png{
@@ -39,8 +40,8 @@ img lccd-logo.png{
 }
 
 .home-image img {
-  height: 300px;
-  max-width: 300px;
+  height: 250px;
+  max-width: 250px;
 	border: 6px solid grey;
 	border-radius: 50px 20px;
 	box-shadow: 5px 5px 5px 5px beige;
@@ -49,11 +50,14 @@ img lccd-logo.png{
 
 .home-image {
 	font-size: .0625em;
+  padding-top: 33px;
 }
 
 .home-image:hover {
 	color: white;
 }
+
+
 
 figure {
 	width: 100%;
@@ -141,6 +145,15 @@ h2 {
 	animation: rotate 5s linear;
 }
 
+.fourth-page {
+  max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 6.250em;
+	padding: 100px 100px 100px 100px;
+	background-color: #20B2AA;
+}
+
 .contact {
 	background: url("../images/entertainment.jpg");
 	background-attachment: fixed;
@@ -153,6 +166,10 @@ h2 {
 	color: black;
   padding-top: 50px;
   font-size: 16px;
+}
+
+.contact h1 {
+  font-size: 100px;
 }
 
 .lcdd {
@@ -190,29 +207,13 @@ footer {
 	background: beige;
 }
 
-/* Start 320 Media Query */
 
-/* Mobile */
-@media (min-width: 320px) {
-  figure {
-    width: 100%
+@media (min-width: 900px) {
+  .home-image {
+    display: flex;
   }
 }
 
-/* Tablets */
-@media (min-width: 760px) {
-  figure {
-    width: 100%
-  }
-}
-
-/* Desktop */
-@media (min-width: 990px) {
-  figure {
-    width: 100%
-  }
-}
-/* End Media Queries */
 
 @keyframes rotate {
 	0% {
