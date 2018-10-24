@@ -68,10 +68,9 @@ h1 {
 }
 
 .container {
-	max-width: 900px;
 	margin: 0 auto;
 	text-align: center;
-	padding: 20px 0;
+  padding: 20px 0;
 	background-color: beige;
 }
 
@@ -106,7 +105,6 @@ p:hover {
 }
 
 .projects {
-	max-width: 900px;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 6.250em;
@@ -146,12 +144,20 @@ h2 {
 }
 
 .fourth-page {
-  max-width: 900px;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 6.250em;
 	padding: 100px 100px 100px 100px;
 	background-color: #20B2AA;
+}
+
+.fourth-page img {
+  max-width: 900px;
+  animation: rotate 5s linear;
+}
+
+.fourth-page p {
+  font-size: 25px;
 }
 
 .contact {
@@ -214,6 +220,7 @@ footer {
   }
 }
 
+@media (min-width: )
 
 @keyframes rotate {
 	0% {
