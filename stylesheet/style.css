@@ -214,15 +214,18 @@ textarea {
   text-align: center;
 }
 
-footer nav ul li {
+.socialmedia {
 	display: inline;
 	font-family: 'Montserrat', sans-serif;
+}
+
+footer img {
+	height: 25px;
 }
 
 footer {
 	background: beige;
 }
-
 
 @media (min-width: 900px) {
   .home-image {
