@@ -23,6 +23,10 @@ header nav a:hover {
 	color: blue;
 }
 
+body {
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
 .hero-image-section {
 	background-image: url("../images/hero-image.jpg");
 	background-attachment: fixed;
@@ -67,6 +71,11 @@ h1 {
 	text-align: center;
 }
 
+figcaption {
+	font-size: 30px;
+	padding-top: 10px;
+}
+
 .container {
 	margin: 0 auto;
 	text-align: center;
@@ -104,6 +113,9 @@ p:hover {
 	background-color: beige;
 }
 
+aside, article {
+  text-shadow: 1px 1px 1px grey;
+}
 .projects {
 	margin: 0 auto;
 	text-align: center;
@@ -132,15 +144,12 @@ p:hover {
 .third-page img {
   width: 200px;
   height: 160px;
+	animation: rotate 5s linear;
 }
 
 h2 {
 	color: white;
 	border: 5px solid white;
-}
-
-.third-page img{
-	animation: rotate 5s linear;
 }
 
 .fourth-page {
@@ -152,7 +161,8 @@ h2 {
 }
 
 .fourth-page img {
-  max-width: 900px;
+  width: 100%;
+	padding-top: 33px;
   animation: rotate 5s linear;
 }
 
@@ -219,8 +229,6 @@ footer {
     display: flex;
   }
 }
-
-@media (min-width: )
 
 @keyframes rotate {
 	0% {
