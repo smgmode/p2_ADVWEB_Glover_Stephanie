@@ -61,8 +61,6 @@ img lccd-logo.png{
 	color: white;
 }
 
-
-
 figure {
 	width: 100%;
 }
@@ -156,7 +154,7 @@ h2 {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 6.250em;
-	padding: 100px 100px 100px 100px;
+	padding: 65px;
 	background-color: #20B2AA;
 }
 
@@ -188,9 +186,12 @@ h2 {
   font-size: 100px;
 }
 
+.contact-section {
+	font-size: 30px;
+}
+
 .lcdd {
-	backgroundcolor: lightblue 40%;
-	padding:
+	background-color: lightblue;
 }
 
 label.label_input_wrap {
