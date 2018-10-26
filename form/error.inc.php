@@ -24,8 +24,14 @@ header nav a:hover {
 	color: blue;
 }
 
-footer nav ul li {
+
+.socialmedia {
 	display: inline;
+	font-family: 'Montserrat', sans-serif;
+}
+
+footer img {
+	height: 25px;
 }
 
 footer {
@@ -59,12 +65,10 @@ footer {
 <p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
 
 <footer>
-  <nav>
-    <ul>
-      <li><a href="#facebook">Facebook</a></li>
-      <li><a href="#twitter">Twitter</a></li>
-      <li><a href="#instagram">Instagram</a></li>
-        <p>&copy 2018</p>
-    </ul>
-  </nav>
+	<div class="socialmedia">
+		<a href="https://twitter.com"><img src="images/twitter.png" alt="twitter" title="twitter" /></a>
+		<a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook" title="facebook" /></a>
+		<a href="https://www.instagram.com"><img src="images/ig.png" alt="instagram" title="instagram" /></a>
+		<p>&copy; 2018 Le Concept de Design</p>
+	</div>
 </footer>
